@@ -1,0 +1,146 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, serif;
+}
+
+a{
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 0.85em ;
+}
+
+header{
+    height: 5%;
+    /*background-color: yellow;*/
+    display: flex;
+    padding: 1em;
+    font-size: 0.9em;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    /*border: solid 1px red;*/
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    /*border: solid 1px green;*/
+    justify-content: space-evenly;
+}
+
+#nav-bar-1{
+    width: 10%;
+}
+
+#nav-bar-2{
+    width: 25%;
+}
+
+main{
+    height: 90%;
+    /*border: solid 2px blue;*/
+}
+
+#container{
+    width: 100%;
+    /*border: solid 2px gray;*/
+    margin: 5em 0;
+}
+
+img{
+    display: block;
+    /*border: solid 3px red;*/
+    margin: auto;
+}
+
+#google-logo{
+    width: 50%;
+    /*border: solid 2px black;*/
+    margin: auto;
+}
+
+
+button{
+    padding: 0.75em 1em;
+    border: solid 1px whitesmoke;
+    border-radius: 5px;
+    color: #7c7f83;
+}
+
+
+button:hover,
+button:focus{
+    color:black;
+    border: solid 1px black;
+}
+
+#sign-in,
+#sign-in:hover,
+#sign-in:focus{
+    padding: 0.5em 1em;
+    background-color: blue;
+    border-color: blue;
+    color:white;
+    font-weight: bold;
+}
+
+input{
+    width: 80%;
+    display: block;
+    padding: 1em;
+    border-radius: 50px;
+    border: 1px solid #dbd6d6;
+    margin: auto;
+}
+
+input:hover,
+input:focus{
+    box-shadow: 5px 5px 5px #c2c2c2;
+}
+
+form{
+    width: 50%;
+    margin: 1em auto;
+}
+
+#buttons-container{
+    display: flex;
+    /*border: solid 2px orange;*/
+    width: 20%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer{
+    height: 5%;
+    background-color: whitesmoke;
+    color: #7c7f83;
+    display: flex;
+    padding: 0.5em;
+    font-size: 0.9em;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    width: 25%;
+}
+
+.footer-link{
+    color: #7c7f83;
+    font-size: 1em;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+a:hover,
+a:focus{
+    text-decoration: underline;
+}
+
